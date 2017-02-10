@@ -14,7 +14,7 @@ class FruitViewController: UIViewController {
 
     var fruit: String?
 
-    override func viewWillAppear(_ animated: Bool) {
+    override func Appear(_ animated: Bool) {
         super.viewWillAppear(animated)
         if let fruit = fruit {
             fruitEmojiLabel?.text = fruit
